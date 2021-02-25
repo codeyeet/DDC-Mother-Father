@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 10px dashed red;
+    border-image: url(http://clipart-library.com/images/gceERxXri.gif) 10 round;
+}
+
+.left {
+    background-color: #800606;
+    width: 25%;
+    padding: 5px;
+}
+
+.middle {
+    background-color: #44aba2;
+    width: 50%;
+    padding: 5px;
+}
+
+.right {
+    background-color: #5fe864;
+    width: 25%;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+
+}
+
+img {
+    width: 300px;
+}
+
+button {
+    border: 5px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: green;
+}
+
+.text-color{color:white;}
